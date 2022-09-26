@@ -63,3 +63,8 @@ h1 {
 #button2 {
   margin-right: 10px;
 }
+
+.buttons:hover {
+  cursor: pointer;
+  background-color: rgba(150, 106, 133, 0.918);
+}
