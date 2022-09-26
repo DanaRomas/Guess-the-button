@@ -11,17 +11,19 @@
   <body>
     <div class="content" id="content">
       <h1>Guess the button!</h1>
-      <h3>How it works:</h3>
-      <p>
-        As you can see, there are three buttons. Only one of them will make you
-        the winner. Can you guess which one will it be?
-      </p>
-      <div class="game" id="game">
+      <div id="explanation">
+        <h3>How it works:</h3>
+        <p>
+          As you can see, there are <em>three</em> buttons. Only <em>one</em> of
+          them will make you the winner. Can you guess which one will it be?
+        </p>
+      </div>
+      <div id="game">
         <h3>Choose one button:</h3>
-        <div id="buttons">
-          <button id="button1"></button>
-          <button id="button2"></button>
-          <button id="button3"></button>
+        <div id="all-buttons">
+          <button id="button1" class="buttons">Button 1</button>
+          <button id="button2" class="buttons">Button 2</button>
+          <button id="button3" class="buttons">Button 3</button>
         </div>
       </div>
     </div>
